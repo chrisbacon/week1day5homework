@@ -39,7 +39,7 @@ end
 
 def remove_pet_by_name(pet_shop, name)
   for pet in pet_shop[:pets]
-    pet_shops[:pets].delete(pet) if pet[:name] == name
+    pet_shop[:pets].delete(pet) if pet[:name] == name
   end
 end
 
